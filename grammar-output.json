@@ -1,0 +1,3357 @@
+{
+  "firsts": {
+    "Program": [
+      null,
+      "int",
+      "void"
+    ],
+    "Declaration": [
+      "int",
+      "void"
+    ],
+    "Declaration_list": [
+      null,
+      "int",
+      "void"
+    ],
+    "Declaration_initial": [
+      "int",
+      "void"
+    ],
+    "Declaration_prime": [
+      "(",
+      ";",
+      "["
+    ],
+    "Var_declaration_prime": [
+      ";",
+      "["
+    ],
+    "Fun_declaration_prime": [
+      "("
+    ],
+    "Type_specifier": [
+      "int",
+      "void"
+    ],
+    "Params": [
+      "int",
+      "void"
+    ],
+    "Param_list": [
+      ",",
+      null
+    ],
+    "Param": [
+      "int",
+      "void"
+    ],
+    "Param_prime": [
+      "[",
+      null
+    ],
+    "Compound_stmt": [
+      "{"
+    ],
+    "Statement_list": [
+      null,
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "Statement": [
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "Expression_stmt": [
+      "break",
+      ";",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "Selection_stmt": [
+      "if"
+    ],
+    "Else_stmt": [
+      "endif",
+      "else"
+    ],
+    "Iteration_stmt": [
+      "for"
+    ],
+    "Return_stmt": [
+      "return"
+    ],
+    "Return_stmt_prime": [
+      ";",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "Expression": [
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "B": [
+      "=",
+      "[",
+      "(",
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      null
+    ],
+    "H": [
+      "=",
+      "*",
+      null,
+      "+",
+      "-",
+      "<",
+      "=="
+    ],
+    "Simple_expression_zegond": [
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "Simple_expression_prime": [
+      "(",
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      null
+    ],
+    "C": [
+      null,
+      "<",
+      "=="
+    ],
+    "Relop": [
+      "<",
+      "=="
+    ],
+    "Additive_expression": [
+      "+",
+      "-",
+      "(",
+      "ID",
+      "NUM"
+    ],
+    "Additive_expression_prime": [
+      "(",
+      "*",
+      "+",
+      "-",
+      null
+    ],
+    "Additive_expression_zegond": [
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "D": [
+      null,
+      "+",
+      "-"
+    ],
+    "Addop": [
+      "+",
+      "-"
+    ],
+    "Term": [
+      "+",
+      "-",
+      "(",
+      "ID",
+      "NUM"
+    ],
+    "Term_prime": [
+      "(",
+      "*",
+      null
+    ],
+    "Term_zegond": [
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "G": [
+      "*",
+      null
+    ],
+    "Signed_factor": [
+      "+",
+      "-",
+      "(",
+      "ID",
+      "NUM"
+    ],
+    "Signed_factor_prime": [
+      "(",
+      null
+    ],
+    "Signed_factor_zegond": [
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "Factor": [
+      "(",
+      "ID",
+      "NUM"
+    ],
+    "Var_call_prime": [
+      "(",
+      "[",
+      null
+    ],
+    "Var_prime": [
+      "[",
+      null
+    ],
+    "Factor_prime": [
+      "(",
+      null
+    ],
+    "Factor_zegond": [
+      "(",
+      "NUM"
+    ],
+    "Args": [
+      null,
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "Arg_list": [
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "Arg_list_prime": [
+      ",",
+      null
+    ]
+  },
+  "follows": {
+    "Program": [
+      "$"
+    ],
+    "Declaration": [
+      "int",
+      "void",
+      "$",
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}"
+    ],
+    "Declaration_list": [
+      "$",
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}"
+    ],
+    "Declaration_initial": [
+      "(",
+      ";",
+      "[",
+      ",",
+      ")"
+    ],
+    "Declaration_prime": [
+      "int",
+      "void",
+      "$",
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}"
+    ],
+    "Var_declaration_prime": [
+      "int",
+      "void",
+      "$",
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}"
+    ],
+    "Fun_declaration_prime": [
+      "int",
+      "void",
+      "$",
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}"
+    ],
+    "Type_specifier": [
+      "ID"
+    ],
+    "Params": [
+      ")"
+    ],
+    "Param_list": [
+      ")"
+    ],
+    "Param": [
+      ",",
+      ")"
+    ],
+    "Param_prime": [
+      ",",
+      ")"
+    ],
+    "Compound_stmt": [
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}",
+      "int",
+      "void",
+      "$",
+      "endif",
+      "else"
+    ],
+    "Statement_list": [
+      "}"
+    ],
+    "Statement": [
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}",
+      "endif",
+      "else"
+    ],
+    "Expression_stmt": [
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}",
+      "endif",
+      "else"
+    ],
+    "Selection_stmt": [
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}",
+      "endif",
+      "else"
+    ],
+    "Else_stmt": [
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}",
+      "endif",
+      "else"
+    ],
+    "Iteration_stmt": [
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}",
+      "endif",
+      "else"
+    ],
+    "Return_stmt": [
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}",
+      "endif",
+      "else"
+    ],
+    "Return_stmt_prime": [
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}",
+      "endif",
+      "else"
+    ],
+    "Expression": [
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "B": [
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "H": [
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Simple_expression_zegond": [
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Simple_expression_prime": [
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "C": [
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Relop": [
+      "+",
+      "-",
+      "(",
+      "ID",
+      "NUM"
+    ],
+    "Additive_expression": [
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Additive_expression_prime": [
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Additive_expression_zegond": [
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "D": [
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Addop": [
+      "+",
+      "-",
+      "(",
+      "ID",
+      "NUM"
+    ],
+    "Term": [
+      "+",
+      "-",
+      ";",
+      ")",
+      "<",
+      "==",
+      "]",
+      ","
+    ],
+    "Term_prime": [
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Term_zegond": [
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "G": [
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Signed_factor": [
+      "*",
+      "+",
+      "-",
+      ";",
+      ")",
+      "<",
+      "==",
+      "]",
+      ","
+    ],
+    "Signed_factor_prime": [
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Signed_factor_zegond": [
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Factor": [
+      "*",
+      "+",
+      "-",
+      ";",
+      ")",
+      "<",
+      "==",
+      "]",
+      ","
+    ],
+    "Var_call_prime": [
+      "*",
+      "+",
+      "-",
+      ";",
+      ")",
+      "<",
+      "==",
+      "]",
+      ","
+    ],
+    "Var_prime": [
+      "*",
+      "+",
+      "-",
+      ";",
+      ")",
+      "<",
+      "==",
+      "]",
+      ","
+    ],
+    "Factor_prime": [
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Factor_zegond": [
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "Args": [
+      ")"
+    ],
+    "Arg_list": [
+      ")"
+    ],
+    "Arg_list_prime": [
+      ")"
+    ]
+  },
+  "predict": {
+    "1": [
+      "int",
+      "void",
+      "$"
+    ],
+    "2": [
+      "int",
+      "void"
+    ],
+    "3": [
+      "int",
+      "void"
+    ],
+    "4": [
+      "$",
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM",
+      "}"
+    ],
+    "5": [
+      "int",
+      "void"
+    ],
+    "6": [
+      "("
+    ],
+    "7": [
+      ";",
+      "["
+    ],
+    "8": [
+      ";"
+    ],
+    "9": [
+      "["
+    ],
+    "10": [
+      "("
+    ],
+    "11": [
+      "int"
+    ],
+    "12": [
+      "void"
+    ],
+    "13": [
+      "int"
+    ],
+    "14": [
+      "void"
+    ],
+    "15": [
+      ","
+    ],
+    "16": [
+      ")"
+    ],
+    "17": [
+      "int",
+      "void"
+    ],
+    "18": [
+      "["
+    ],
+    "19": [
+      ",",
+      ")"
+    ],
+    "20": [
+      "{"
+    ],
+    "21": [
+      "{",
+      "break",
+      ";",
+      "if",
+      "for",
+      "return",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "22": [
+      "}"
+    ],
+    "23": [
+      "break",
+      ";",
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "24": [
+      "{"
+    ],
+    "25": [
+      "if"
+    ],
+    "26": [
+      "for"
+    ],
+    "27": [
+      "return"
+    ],
+    "28": [
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "29": [
+      "break"
+    ],
+    "30": [
+      ";"
+    ],
+    "31": [
+      "if"
+    ],
+    "32": [
+      "endif"
+    ],
+    "33": [
+      "else"
+    ],
+    "34": [
+      "for"
+    ],
+    "35": [
+      "return"
+    ],
+    "36": [
+      ";"
+    ],
+    "37": [
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "38": [
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "39": [
+      "ID"
+    ],
+    "40": [
+      "="
+    ],
+    "41": [
+      "["
+    ],
+    "42": [
+      "(",
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "43": [
+      "="
+    ],
+    "44": [
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "45": [
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "46": [
+      "(",
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "47": [
+      "<",
+      "=="
+    ],
+    "48": [
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "49": [
+      "<"
+    ],
+    "50": [
+      "=="
+    ],
+    "51": [
+      "+",
+      "-",
+      "(",
+      "ID",
+      "NUM"
+    ],
+    "52": [
+      "(",
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "53": [
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "54": [
+      "+",
+      "-"
+    ],
+    "55": [
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "56": [
+      "+"
+    ],
+    "57": [
+      "-"
+    ],
+    "58": [
+      "+",
+      "-",
+      "(",
+      "ID",
+      "NUM"
+    ],
+    "59": [
+      "(",
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "60": [
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "61": [
+      "*"
+    ],
+    "62": [
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "63": [
+      "+"
+    ],
+    "64": [
+      "-"
+    ],
+    "65": [
+      "(",
+      "ID",
+      "NUM"
+    ],
+    "66": [
+      "(",
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "67": [
+      "+"
+    ],
+    "68": [
+      "-"
+    ],
+    "69": [
+      "(",
+      "NUM"
+    ],
+    "70": [
+      "("
+    ],
+    "71": [
+      "ID"
+    ],
+    "72": [
+      "NUM"
+    ],
+    "73": [
+      "("
+    ],
+    "74": [
+      "[",
+      "*",
+      "+",
+      "-",
+      ";",
+      ")",
+      "<",
+      "==",
+      "]",
+      ","
+    ],
+    "75": [
+      "["
+    ],
+    "76": [
+      "*",
+      "+",
+      "-",
+      ";",
+      ")",
+      "<",
+      "==",
+      "]",
+      ","
+    ],
+    "77": [
+      "("
+    ],
+    "78": [
+      "*",
+      "+",
+      "-",
+      "<",
+      "==",
+      ";",
+      ")",
+      "]",
+      ","
+    ],
+    "79": [
+      "("
+    ],
+    "80": [
+      "NUM"
+    ],
+    "81": [
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "82": [
+      ")"
+    ],
+    "83": [
+      "ID",
+      "+",
+      "-",
+      "(",
+      "NUM"
+    ],
+    "84": [
+      ","
+    ],
+    "85": [
+      ")"
+    ]
+  },
+  "rules": [
+    {
+      "left": "Program",
+      "right": [
+        "Declaration_list"
+      ],
+      "right_with_actions": [
+        "#start_program",
+        "Declaration_list",
+        "#end_program"
+      ]
+    },
+    {
+      "left": "Declaration",
+      "right": [
+        "Declaration_initial",
+        "Declaration_prime"
+      ],
+      "right_with_actions": [
+        "Declaration_initial",
+        "Declaration_prime"
+      ]
+    },
+    {
+      "left": "Declaration_list",
+      "right": [
+        "Declaration",
+        "Declaration_list"
+      ],
+      "right_with_actions": [
+        "#start_declaration",
+        "Declaration",
+        "Declaration_list"
+      ]
+    },
+    {
+      "left": "Declaration_list",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    },
+    {
+      "left": "Declaration_initial",
+      "right": [
+        "Type_specifier",
+        "ID"
+      ],
+      "right_with_actions": [
+        "Type_specifier",
+        "#declaration_id",
+        "ID"
+      ]
+    },
+    {
+      "left": "Declaration_prime",
+      "right": [
+        "Fun_declaration_prime"
+      ],
+      "right_with_actions": [
+        "#declare_function",
+        "Fun_declaration_prime"
+      ]
+    },
+    {
+      "left": "Declaration_prime",
+      "right": [
+        "Var_declaration_prime"
+      ],
+      "right_with_actions": [
+        "#declare_var",
+        "Var_declaration_prime",
+        "#end_var_declaration"
+      ]
+    },
+    {
+      "left": "Var_declaration_prime",
+      "right": [
+        ";"
+      ],
+      "right_with_actions": [
+        "#assign_var",
+        ";"
+      ]
+    },
+    {
+      "left": "Var_declaration_prime",
+      "right": [
+        "[",
+        "NUM",
+        "]",
+        ";"
+      ],
+      "right_with_actions": [
+        "#declare_array",
+        "[",
+        "#declare_array_length",
+        "NUM",
+        "]",
+        ";"
+      ]
+    },
+    {
+      "left": "Fun_declaration_prime",
+      "right": [
+        "(",
+        "Params",
+        ")",
+        "Compound_stmt"
+      ],
+      "right_with_actions": [
+        "#start_function_declaration",
+        "(",
+        "#start_scope",
+        "#start_params_declaration",
+        "Params",
+        "#end_params_declaration",
+        ")",
+        "Compound_stmt",
+        "#end_function_declaration",
+        "#end_scope"
+      ]
+    },
+    {
+      "left": "Type_specifier",
+      "right": [
+        "int"
+      ],
+      "right_with_actions": [
+        "#declaration_type",
+        "int"
+      ]
+    },
+    {
+      "left": "Type_specifier",
+      "right": [
+        "void"
+      ],
+      "right_with_actions": [
+        "#declaration_type",
+        "void"
+      ]
+    },
+    {
+      "left": "Params",
+      "right": [
+        "int",
+        "ID",
+        "Param_prime",
+        "Param_list"
+      ],
+      "right_with_actions": [
+        "int",
+        "#param_id",
+        "ID",
+        "Param_prime",
+        "#end_param",
+        "Param_list"
+      ]
+    },
+    {
+      "left": "Params",
+      "right": [
+        "void"
+      ],
+      "right_with_actions": [
+        "void"
+      ]
+    },
+    {
+      "left": "Param_list",
+      "right": [
+        ",",
+        "Param",
+        "Param_list"
+      ],
+      "right_with_actions": [
+        ",",
+        "Param",
+        "#end_param",
+        "Param_list"
+      ]
+    },
+    {
+      "left": "Param_list",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    },
+    {
+      "left": "Param",
+      "right": [
+        "Declaration_initial",
+        "Param_prime"
+      ],
+      "right_with_actions": [
+        "#start_declaration",
+        "Declaration_initial",
+        "#declared_param",
+        "#check_declaration_var",
+        "Param_prime"
+      ]
+    },
+    {
+      "left": "Param_prime",
+      "right": [
+        "[",
+        "]"
+      ],
+      "right_with_actions": [
+        "#param_is_array",
+        "[",
+        "]"
+      ]
+    },
+    {
+      "left": "Param_prime",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    },
+    {
+      "left": "Compound_stmt",
+      "right": [
+        "{",
+        "Declaration_list",
+        "Statement_list",
+        "}"
+      ],
+      "right_with_actions": [
+        "{",
+        "Declaration_list",
+        "Statement_list",
+        "}"
+      ]
+    },
+    {
+      "left": "Statement_list",
+      "right": [
+        "Statement",
+        "Statement_list"
+      ],
+      "right_with_actions": [
+        "Statement",
+        "Statement_list"
+      ]
+    },
+    {
+      "left": "Statement_list",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    },
+    {
+      "left": "Statement",
+      "right": [
+        "Expression_stmt"
+      ],
+      "right_with_actions": [
+        "Expression_stmt"
+      ]
+    },
+    {
+      "left": "Statement",
+      "right": [
+        "Compound_stmt"
+      ],
+      "right_with_actions": [
+        "Compound_stmt"
+      ]
+    },
+    {
+      "left": "Statement",
+      "right": [
+        "Selection_stmt"
+      ],
+      "right_with_actions": [
+        "Selection_stmt"
+      ]
+    },
+    {
+      "left": "Statement",
+      "right": [
+        "Iteration_stmt"
+      ],
+      "right_with_actions": [
+        "Iteration_stmt"
+      ]
+    },
+    {
+      "left": "Statement",
+      "right": [
+        "Return_stmt"
+      ],
+      "right_with_actions": [
+        "Return_stmt"
+      ]
+    },
+    {
+      "left": "Expression_stmt",
+      "right": [
+        "Expression",
+        ";"
+      ],
+      "right_with_actions": [
+        "Expression",
+        "#pop_stack",
+        ";"
+      ]
+    },
+    {
+      "left": "Expression_stmt",
+      "right": [
+        "break",
+        ";"
+      ],
+      "right_with_actions": [
+        "break",
+        "#break_loop",
+        ";"
+      ]
+    },
+    {
+      "left": "Expression_stmt",
+      "right": [
+        ";"
+      ],
+      "right_with_actions": [
+        ";"
+      ]
+    },
+    {
+      "left": "Selection_stmt",
+      "right": [
+        "if",
+        "(",
+        "Expression",
+        ")",
+        "Statement",
+        "Else_stmt"
+      ],
+      "right_with_actions": [
+        "if",
+        "(",
+        "Expression",
+        ")",
+        "#save_if",
+        "#start_scope",
+        "Statement",
+        "#end_scope",
+        "Else_stmt",
+        "#end_if"
+      ]
+    },
+    {
+      "left": "Else_stmt",
+      "right": [
+        "endif"
+      ],
+      "right_with_actions": [
+        "endif",
+        "#if_jpf"
+      ]
+    },
+    {
+      "left": "Else_stmt",
+      "right": [
+        "else",
+        "Statement",
+        "endif"
+      ],
+      "right_with_actions": [
+        "else",
+        "#start_scope",
+        "#if_else_jpf",
+        "Statement",
+        "endif",
+        "#else_jp",
+        "#end_scope"
+      ]
+    },
+    {
+      "left": "Iteration_stmt",
+      "right": [
+        "for",
+        "(",
+        "Expression",
+        ";",
+        "Expression",
+        ";",
+        "Expression",
+        ")",
+        "Statement"
+      ],
+      "right_with_actions": [
+        "for",
+        "(",
+        "#start_scope",
+        "Expression",
+        "#pop_stack",
+        ";",
+        "#start_for",
+        "Expression",
+        "#save_for",
+        ";",
+        "#start_iterator_expression_mode",
+        "Expression",
+        "#pop_stack",
+        "#end_iterator_expression_mode",
+        ")",
+        "Statement",
+        "#end_for",
+        "#end_scope"
+      ]
+    },
+    {
+      "left": "Return_stmt",
+      "right": [
+        "return",
+        "Return_stmt_prime"
+      ],
+      "right_with_actions": [
+        "return",
+        "Return_stmt_prime",
+        "#jp_ra"
+      ]
+    },
+    {
+      "left": "Return_stmt_prime",
+      "right": [
+        ";"
+      ],
+      "right_with_actions": [
+        "#check_return_void",
+        ";"
+      ]
+    },
+    {
+      "left": "Return_stmt_prime",
+      "right": [
+        "Expression",
+        ";"
+      ],
+      "right_with_actions": [
+        "#check_return_non_void",
+        "Expression",
+        "#set_return_value",
+        ";"
+      ]
+    },
+    {
+      "left": "Expression",
+      "right": [
+        "Simple_expression_zegond"
+      ],
+      "right_with_actions": [
+        "Simple_expression_zegond"
+      ]
+    },
+    {
+      "left": "Expression",
+      "right": [
+        "ID",
+        "B"
+      ],
+      "right_with_actions": [
+        "#push_address",
+        "ID",
+        "B"
+      ]
+    },
+    {
+      "left": "B",
+      "right": [
+        "=",
+        "Expression"
+      ],
+      "right_with_actions": [
+        "=",
+        "Expression",
+        "#assign"
+      ]
+    },
+    {
+      "left": "B",
+      "right": [
+        "[",
+        "Expression",
+        "]",
+        "H"
+      ],
+      "right_with_actions": [
+        "#check_array",
+        "[",
+        "Expression",
+        "#array_index",
+        "]",
+        "H"
+      ]
+    },
+    {
+      "left": "B",
+      "right": [
+        "Simple_expression_prime"
+      ],
+      "right_with_actions": [
+        "Simple_expression_prime"
+      ]
+    },
+    {
+      "left": "H",
+      "right": [
+        "=",
+        "Expression"
+      ],
+      "right_with_actions": [
+        "=",
+        "Expression",
+        "#assign"
+      ]
+    },
+    {
+      "left": "H",
+      "right": [
+        "G",
+        "D",
+        "C"
+      ],
+      "right_with_actions": [
+        "G",
+        "D",
+        "C"
+      ]
+    },
+    {
+      "left": "Simple_expression_zegond",
+      "right": [
+        "Additive_expression_zegond",
+        "C"
+      ],
+      "right_with_actions": [
+        "Additive_expression_zegond",
+        "C"
+      ]
+    },
+    {
+      "left": "Simple_expression_prime",
+      "right": [
+        "Additive_expression_prime",
+        "C"
+      ],
+      "right_with_actions": [
+        "Additive_expression_prime",
+        "C"
+      ]
+    },
+    {
+      "left": "C",
+      "right": [
+        "Relop",
+        "Additive_expression"
+      ],
+      "right_with_actions": [
+        "#comparison_op",
+        "Relop",
+        "Additive_expression",
+        "#comparison"
+      ]
+    },
+    {
+      "left": "C",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    },
+    {
+      "left": "Relop",
+      "right": [
+        "<"
+      ],
+      "right_with_actions": [
+        "<"
+      ]
+    },
+    {
+      "left": "Relop",
+      "right": [
+        "=="
+      ],
+      "right_with_actions": [
+        "=="
+      ]
+    },
+    {
+      "left": "Additive_expression",
+      "right": [
+        "Term",
+        "D"
+      ],
+      "right_with_actions": [
+        "Term",
+        "D"
+      ]
+    },
+    {
+      "left": "Additive_expression_prime",
+      "right": [
+        "Term_prime",
+        "D"
+      ],
+      "right_with_actions": [
+        "Term_prime",
+        "D"
+      ]
+    },
+    {
+      "left": "Additive_expression_zegond",
+      "right": [
+        "Term_zegond",
+        "D"
+      ],
+      "right_with_actions": [
+        "Term_zegond",
+        "D"
+      ]
+    },
+    {
+      "left": "D",
+      "right": [
+        "Addop",
+        "Term",
+        "D"
+      ],
+      "right_with_actions": [
+        "#arith_op",
+        "Addop",
+        "Term",
+        "#arith",
+        "D"
+      ]
+    },
+    {
+      "left": "D",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    },
+    {
+      "left": "Addop",
+      "right": [
+        "+"
+      ],
+      "right_with_actions": [
+        "+"
+      ]
+    },
+    {
+      "left": "Addop",
+      "right": [
+        "-"
+      ],
+      "right_with_actions": [
+        "-"
+      ]
+    },
+    {
+      "left": "Term",
+      "right": [
+        "Signed_factor",
+        "G"
+      ],
+      "right_with_actions": [
+        "Signed_factor",
+        "G"
+      ]
+    },
+    {
+      "left": "Term_prime",
+      "right": [
+        "Signed_factor_prime",
+        "G"
+      ],
+      "right_with_actions": [
+        "Signed_factor_prime",
+        "G"
+      ]
+    },
+    {
+      "left": "Term_zegond",
+      "right": [
+        "Signed_factor_zegond",
+        "G"
+      ],
+      "right_with_actions": [
+        "Signed_factor_zegond",
+        "G"
+      ]
+    },
+    {
+      "left": "G",
+      "right": [
+        "*",
+        "Signed_factor",
+        "G"
+      ],
+      "right_with_actions": [
+        "*",
+        "Signed_factor",
+        "#mult",
+        "G"
+      ]
+    },
+    {
+      "left": "G",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    },
+    {
+      "left": "Signed_factor",
+      "right": [
+        "+",
+        "Factor"
+      ],
+      "right_with_actions": [
+        "+",
+        "Factor"
+      ]
+    },
+    {
+      "left": "Signed_factor",
+      "right": [
+        "-",
+        "Factor"
+      ],
+      "right_with_actions": [
+        "-",
+        "Factor",
+        "#negate"
+      ]
+    },
+    {
+      "left": "Signed_factor",
+      "right": [
+        "Factor"
+      ],
+      "right_with_actions": [
+        "Factor"
+      ]
+    },
+    {
+      "left": "Signed_factor_prime",
+      "right": [
+        "Factor_prime"
+      ],
+      "right_with_actions": [
+        "Factor_prime"
+      ]
+    },
+    {
+      "left": "Signed_factor_zegond",
+      "right": [
+        "+",
+        "Factor"
+      ],
+      "right_with_actions": [
+        "+",
+        "Factor"
+      ]
+    },
+    {
+      "left": "Signed_factor_zegond",
+      "right": [
+        "-",
+        "Factor"
+      ],
+      "right_with_actions": [
+        "-",
+        "Factor",
+        "#negate"
+      ]
+    },
+    {
+      "left": "Signed_factor_zegond",
+      "right": [
+        "Factor_zegond"
+      ],
+      "right_with_actions": [
+        "Factor_zegond"
+      ]
+    },
+    {
+      "left": "Factor",
+      "right": [
+        "(",
+        "Expression",
+        ")"
+      ],
+      "right_with_actions": [
+        "(",
+        "Expression",
+        ")"
+      ]
+    },
+    {
+      "left": "Factor",
+      "right": [
+        "ID",
+        "Var_call_prime"
+      ],
+      "right_with_actions": [
+        "#push_address",
+        "ID",
+        "Var_call_prime"
+      ]
+    },
+    {
+      "left": "Factor",
+      "right": [
+        "NUM"
+      ],
+      "right_with_actions": [
+        "#push_const",
+        "NUM"
+      ]
+    },
+    {
+      "left": "Var_call_prime",
+      "right": [
+        "(",
+        "Args",
+        ")"
+      ],
+      "right_with_actions": [
+        "#check_function",
+        "#start_function_call",
+        "(",
+        "Args",
+        ")",
+        "#end_function_call"
+      ]
+    },
+    {
+      "left": "Var_call_prime",
+      "right": [
+        "Var_prime"
+      ],
+      "right_with_actions": [
+        "#check_var",
+        "Var_prime"
+      ]
+    },
+    {
+      "left": "Var_prime",
+      "right": [
+        "[",
+        "Expression",
+        "]"
+      ],
+      "right_with_actions": [
+        "#check_array",
+        "[",
+        "Expression",
+        "#array_index",
+        "]"
+      ]
+    },
+    {
+      "left": "Var_prime",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    },
+    {
+      "left": "Factor_prime",
+      "right": [
+        "(",
+        "Args",
+        ")"
+      ],
+      "right_with_actions": [
+        "#check_function",
+        "#start_function_call",
+        "(",
+        "Args",
+        ")",
+        "#end_function_call"
+      ]
+    },
+    {
+      "left": "Factor_prime",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    },
+    {
+      "left": "Factor_zegond",
+      "right": [
+        "(",
+        "Expression",
+        ")"
+      ],
+      "right_with_actions": [
+        "(",
+        "Expression",
+        ")"
+      ]
+    },
+    {
+      "left": "Factor_zegond",
+      "right": [
+        "NUM"
+      ],
+      "right_with_actions": [
+        "#push_const",
+        "NUM"
+      ]
+    },
+    {
+      "left": "Args",
+      "right": [
+        "Arg_list"
+      ],
+      "right_with_actions": [
+        "Arg_list"
+      ]
+    },
+    {
+      "left": "Args",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    },
+    {
+      "left": "Arg_list",
+      "right": [
+        "Expression",
+        "Arg_list_prime"
+      ],
+      "right_with_actions": [
+        "Expression",
+        "#add_arg",
+        "Arg_list_prime"
+      ]
+    },
+    {
+      "left": "Arg_list_prime",
+      "right": [
+        ",",
+        "Expression",
+        "Arg_list_prime"
+      ],
+      "right_with_actions": [
+        ",",
+        "Expression",
+        "#add_arg",
+        "Arg_list_prime"
+      ]
+    },
+    {
+      "left": "Arg_list_prime",
+      "right": [
+        null
+      ],
+      "right_with_actions": [
+        null
+      ]
+    }
+  ],
+  "table": {
+    "Program": {
+      "int": [
+        "#start_program",
+        "Declaration_list",
+        "#end_program"
+      ],
+      "void": [
+        "#start_program",
+        "Declaration_list",
+        "#end_program"
+      ],
+      "$": [
+        "#start_program",
+        "Declaration_list",
+        "#end_program"
+      ]
+    },
+    "Declaration": {
+      "int": [
+        "Declaration_initial",
+        "Declaration_prime"
+      ],
+      "void": [
+        "Declaration_initial",
+        "Declaration_prime"
+      ]
+    },
+    "Declaration_list": {
+      "int": [
+        "#start_declaration",
+        "Declaration",
+        "Declaration_list"
+      ],
+      "void": [
+        "#start_declaration",
+        "Declaration",
+        "Declaration_list"
+      ],
+      "$": [
+        null
+      ],
+      "{": [
+        null
+      ],
+      "break": [
+        null
+      ],
+      ";": [
+        null
+      ],
+      "if": [
+        null
+      ],
+      "for": [
+        null
+      ],
+      "return": [
+        null
+      ],
+      "ID": [
+        null
+      ],
+      "+": [
+        null
+      ],
+      "-": [
+        null
+      ],
+      "(": [
+        null
+      ],
+      "NUM": [
+        null
+      ],
+      "}": [
+        null
+      ]
+    },
+    "Declaration_initial": {
+      "int": [
+        "Type_specifier",
+        "#declaration_id",
+        "ID"
+      ],
+      "void": [
+        "Type_specifier",
+        "#declaration_id",
+        "ID"
+      ]
+    },
+    "Declaration_prime": {
+      "(": [
+        "#declare_function",
+        "Fun_declaration_prime"
+      ],
+      ";": [
+        "#declare_var",
+        "Var_declaration_prime",
+        "#end_var_declaration"
+      ],
+      "[": [
+        "#declare_var",
+        "Var_declaration_prime",
+        "#end_var_declaration"
+      ]
+    },
+    "Var_declaration_prime": {
+      ";": [
+        "#assign_var",
+        ";"
+      ],
+      "[": [
+        "#declare_array",
+        "[",
+        "#declare_array_length",
+        "NUM",
+        "]",
+        ";"
+      ]
+    },
+    "Fun_declaration_prime": {
+      "(": [
+        "#start_function_declaration",
+        "(",
+        "#start_scope",
+        "#start_params_declaration",
+        "Params",
+        "#end_params_declaration",
+        ")",
+        "Compound_stmt",
+        "#end_function_declaration",
+        "#end_scope"
+      ]
+    },
+    "Type_specifier": {
+      "int": [
+        "#declaration_type",
+        "int"
+      ],
+      "void": [
+        "#declaration_type",
+        "void"
+      ]
+    },
+    "Params": {
+      "int": [
+        "int",
+        "#param_id",
+        "ID",
+        "Param_prime",
+        "#end_param",
+        "Param_list"
+      ],
+      "void": [
+        "void"
+      ]
+    },
+    "Param_list": {
+      ",": [
+        ",",
+        "Param",
+        "#end_param",
+        "Param_list"
+      ],
+      ")": [
+        null
+      ]
+    },
+    "Param": {
+      "int": [
+        "#start_declaration",
+        "Declaration_initial",
+        "#declared_param",
+        "#check_declaration_var",
+        "Param_prime"
+      ],
+      "void": [
+        "#start_declaration",
+        "Declaration_initial",
+        "#declared_param",
+        "#check_declaration_var",
+        "Param_prime"
+      ]
+    },
+    "Param_prime": {
+      "[": [
+        "#param_is_array",
+        "[",
+        "]"
+      ],
+      ",": [
+        null
+      ],
+      ")": [
+        null
+      ]
+    },
+    "Compound_stmt": {
+      "{": [
+        "{",
+        "Declaration_list",
+        "Statement_list",
+        "}"
+      ]
+    },
+    "Statement_list": {
+      "{": [
+        "Statement",
+        "Statement_list"
+      ],
+      "break": [
+        "Statement",
+        "Statement_list"
+      ],
+      ";": [
+        "Statement",
+        "Statement_list"
+      ],
+      "if": [
+        "Statement",
+        "Statement_list"
+      ],
+      "for": [
+        "Statement",
+        "Statement_list"
+      ],
+      "return": [
+        "Statement",
+        "Statement_list"
+      ],
+      "ID": [
+        "Statement",
+        "Statement_list"
+      ],
+      "+": [
+        "Statement",
+        "Statement_list"
+      ],
+      "-": [
+        "Statement",
+        "Statement_list"
+      ],
+      "(": [
+        "Statement",
+        "Statement_list"
+      ],
+      "NUM": [
+        "Statement",
+        "Statement_list"
+      ],
+      "}": [
+        null
+      ]
+    },
+    "Statement": {
+      "break": [
+        "Expression_stmt"
+      ],
+      ";": [
+        "Expression_stmt"
+      ],
+      "ID": [
+        "Expression_stmt"
+      ],
+      "+": [
+        "Expression_stmt"
+      ],
+      "-": [
+        "Expression_stmt"
+      ],
+      "(": [
+        "Expression_stmt"
+      ],
+      "NUM": [
+        "Expression_stmt"
+      ],
+      "{": [
+        "Compound_stmt"
+      ],
+      "if": [
+        "Selection_stmt"
+      ],
+      "for": [
+        "Iteration_stmt"
+      ],
+      "return": [
+        "Return_stmt"
+      ]
+    },
+    "Expression_stmt": {
+      "ID": [
+        "Expression",
+        "#pop_stack",
+        ";"
+      ],
+      "+": [
+        "Expression",
+        "#pop_stack",
+        ";"
+      ],
+      "-": [
+        "Expression",
+        "#pop_stack",
+        ";"
+      ],
+      "(": [
+        "Expression",
+        "#pop_stack",
+        ";"
+      ],
+      "NUM": [
+        "Expression",
+        "#pop_stack",
+        ";"
+      ],
+      "break": [
+        "break",
+        "#break_loop",
+        ";"
+      ],
+      ";": [
+        ";"
+      ]
+    },
+    "Selection_stmt": {
+      "if": [
+        "if",
+        "(",
+        "Expression",
+        ")",
+        "#save_if",
+        "#start_scope",
+        "Statement",
+        "#end_scope",
+        "Else_stmt",
+        "#end_if"
+      ]
+    },
+    "Else_stmt": {
+      "endif": [
+        "endif",
+        "#if_jpf"
+      ],
+      "else": [
+        "else",
+        "#start_scope",
+        "#if_else_jpf",
+        "Statement",
+        "endif",
+        "#else_jp",
+        "#end_scope"
+      ]
+    },
+    "Iteration_stmt": {
+      "for": [
+        "for",
+        "(",
+        "#start_scope",
+        "Expression",
+        "#pop_stack",
+        ";",
+        "#start_for",
+        "Expression",
+        "#save_for",
+        ";",
+        "#start_iterator_expression_mode",
+        "Expression",
+        "#pop_stack",
+        "#end_iterator_expression_mode",
+        ")",
+        "Statement",
+        "#end_for",
+        "#end_scope"
+      ]
+    },
+    "Return_stmt": {
+      "return": [
+        "return",
+        "Return_stmt_prime",
+        "#jp_ra"
+      ]
+    },
+    "Return_stmt_prime": {
+      ";": [
+        "#check_return_void",
+        ";"
+      ],
+      "ID": [
+        "#check_return_non_void",
+        "Expression",
+        "#set_return_value",
+        ";"
+      ],
+      "+": [
+        "#check_return_non_void",
+        "Expression",
+        "#set_return_value",
+        ";"
+      ],
+      "-": [
+        "#check_return_non_void",
+        "Expression",
+        "#set_return_value",
+        ";"
+      ],
+      "(": [
+        "#check_return_non_void",
+        "Expression",
+        "#set_return_value",
+        ";"
+      ],
+      "NUM": [
+        "#check_return_non_void",
+        "Expression",
+        "#set_return_value",
+        ";"
+      ]
+    },
+    "Expression": {
+      "+": [
+        "Simple_expression_zegond"
+      ],
+      "-": [
+        "Simple_expression_zegond"
+      ],
+      "(": [
+        "Simple_expression_zegond"
+      ],
+      "NUM": [
+        "Simple_expression_zegond"
+      ],
+      "ID": [
+        "#push_address",
+        "ID",
+        "B"
+      ]
+    },
+    "B": {
+      "=": [
+        "=",
+        "Expression",
+        "#assign"
+      ],
+      "[": [
+        "#check_array",
+        "[",
+        "Expression",
+        "#array_index",
+        "]",
+        "H"
+      ],
+      "(": [
+        "Simple_expression_prime"
+      ],
+      "*": [
+        "Simple_expression_prime"
+      ],
+      "+": [
+        "Simple_expression_prime"
+      ],
+      "-": [
+        "Simple_expression_prime"
+      ],
+      "<": [
+        "Simple_expression_prime"
+      ],
+      "==": [
+        "Simple_expression_prime"
+      ],
+      ";": [
+        "Simple_expression_prime"
+      ],
+      ")": [
+        "Simple_expression_prime"
+      ],
+      "]": [
+        "Simple_expression_prime"
+      ],
+      ",": [
+        "Simple_expression_prime"
+      ]
+    },
+    "H": {
+      "=": [
+        "=",
+        "Expression",
+        "#assign"
+      ],
+      "*": [
+        "G",
+        "D",
+        "C"
+      ],
+      "+": [
+        "G",
+        "D",
+        "C"
+      ],
+      "-": [
+        "G",
+        "D",
+        "C"
+      ],
+      "<": [
+        "G",
+        "D",
+        "C"
+      ],
+      "==": [
+        "G",
+        "D",
+        "C"
+      ],
+      ";": [
+        "G",
+        "D",
+        "C"
+      ],
+      ")": [
+        "G",
+        "D",
+        "C"
+      ],
+      "]": [
+        "G",
+        "D",
+        "C"
+      ],
+      ",": [
+        "G",
+        "D",
+        "C"
+      ]
+    },
+    "Simple_expression_zegond": {
+      "+": [
+        "Additive_expression_zegond",
+        "C"
+      ],
+      "-": [
+        "Additive_expression_zegond",
+        "C"
+      ],
+      "(": [
+        "Additive_expression_zegond",
+        "C"
+      ],
+      "NUM": [
+        "Additive_expression_zegond",
+        "C"
+      ]
+    },
+    "Simple_expression_prime": {
+      "(": [
+        "Additive_expression_prime",
+        "C"
+      ],
+      "*": [
+        "Additive_expression_prime",
+        "C"
+      ],
+      "+": [
+        "Additive_expression_prime",
+        "C"
+      ],
+      "-": [
+        "Additive_expression_prime",
+        "C"
+      ],
+      "<": [
+        "Additive_expression_prime",
+        "C"
+      ],
+      "==": [
+        "Additive_expression_prime",
+        "C"
+      ],
+      ";": [
+        "Additive_expression_prime",
+        "C"
+      ],
+      ")": [
+        "Additive_expression_prime",
+        "C"
+      ],
+      "]": [
+        "Additive_expression_prime",
+        "C"
+      ],
+      ",": [
+        "Additive_expression_prime",
+        "C"
+      ]
+    },
+    "C": {
+      "<": [
+        "#comparison_op",
+        "Relop",
+        "Additive_expression",
+        "#comparison"
+      ],
+      "==": [
+        "#comparison_op",
+        "Relop",
+        "Additive_expression",
+        "#comparison"
+      ],
+      ";": [
+        null
+      ],
+      ")": [
+        null
+      ],
+      "]": [
+        null
+      ],
+      ",": [
+        null
+      ]
+    },
+    "Relop": {
+      "<": [
+        "<"
+      ],
+      "==": [
+        "=="
+      ]
+    },
+    "Additive_expression": {
+      "+": [
+        "Term",
+        "D"
+      ],
+      "-": [
+        "Term",
+        "D"
+      ],
+      "(": [
+        "Term",
+        "D"
+      ],
+      "ID": [
+        "Term",
+        "D"
+      ],
+      "NUM": [
+        "Term",
+        "D"
+      ]
+    },
+    "Additive_expression_prime": {
+      "(": [
+        "Term_prime",
+        "D"
+      ],
+      "*": [
+        "Term_prime",
+        "D"
+      ],
+      "+": [
+        "Term_prime",
+        "D"
+      ],
+      "-": [
+        "Term_prime",
+        "D"
+      ],
+      "<": [
+        "Term_prime",
+        "D"
+      ],
+      "==": [
+        "Term_prime",
+        "D"
+      ],
+      ";": [
+        "Term_prime",
+        "D"
+      ],
+      ")": [
+        "Term_prime",
+        "D"
+      ],
+      "]": [
+        "Term_prime",
+        "D"
+      ],
+      ",": [
+        "Term_prime",
+        "D"
+      ]
+    },
+    "Additive_expression_zegond": {
+      "+": [
+        "Term_zegond",
+        "D"
+      ],
+      "-": [
+        "Term_zegond",
+        "D"
+      ],
+      "(": [
+        "Term_zegond",
+        "D"
+      ],
+      "NUM": [
+        "Term_zegond",
+        "D"
+      ]
+    },
+    "D": {
+      "+": [
+        "#arith_op",
+        "Addop",
+        "Term",
+        "#arith",
+        "D"
+      ],
+      "-": [
+        "#arith_op",
+        "Addop",
+        "Term",
+        "#arith",
+        "D"
+      ],
+      "<": [
+        null
+      ],
+      "==": [
+        null
+      ],
+      ";": [
+        null
+      ],
+      ")": [
+        null
+      ],
+      "]": [
+        null
+      ],
+      ",": [
+        null
+      ]
+    },
+    "Addop": {
+      "+": [
+        "+"
+      ],
+      "-": [
+        "-"
+      ]
+    },
+    "Term": {
+      "+": [
+        "Signed_factor",
+        "G"
+      ],
+      "-": [
+        "Signed_factor",
+        "G"
+      ],
+      "(": [
+        "Signed_factor",
+        "G"
+      ],
+      "ID": [
+        "Signed_factor",
+        "G"
+      ],
+      "NUM": [
+        "Signed_factor",
+        "G"
+      ]
+    },
+    "Term_prime": {
+      "(": [
+        "Signed_factor_prime",
+        "G"
+      ],
+      "*": [
+        "Signed_factor_prime",
+        "G"
+      ],
+      "+": [
+        "Signed_factor_prime",
+        "G"
+      ],
+      "-": [
+        "Signed_factor_prime",
+        "G"
+      ],
+      "<": [
+        "Signed_factor_prime",
+        "G"
+      ],
+      "==": [
+        "Signed_factor_prime",
+        "G"
+      ],
+      ";": [
+        "Signed_factor_prime",
+        "G"
+      ],
+      ")": [
+        "Signed_factor_prime",
+        "G"
+      ],
+      "]": [
+        "Signed_factor_prime",
+        "G"
+      ],
+      ",": [
+        "Signed_factor_prime",
+        "G"
+      ]
+    },
+    "Term_zegond": {
+      "+": [
+        "Signed_factor_zegond",
+        "G"
+      ],
+      "-": [
+        "Signed_factor_zegond",
+        "G"
+      ],
+      "(": [
+        "Signed_factor_zegond",
+        "G"
+      ],
+      "NUM": [
+        "Signed_factor_zegond",
+        "G"
+      ]
+    },
+    "G": {
+      "*": [
+        "*",
+        "Signed_factor",
+        "#mult",
+        "G"
+      ],
+      "+": [
+        null
+      ],
+      "-": [
+        null
+      ],
+      "<": [
+        null
+      ],
+      "==": [
+        null
+      ],
+      ";": [
+        null
+      ],
+      ")": [
+        null
+      ],
+      "]": [
+        null
+      ],
+      ",": [
+        null
+      ]
+    },
+    "Signed_factor": {
+      "+": [
+        "+",
+        "Factor"
+      ],
+      "-": [
+        "-",
+        "Factor",
+        "#negate"
+      ],
+      "(": [
+        "Factor"
+      ],
+      "ID": [
+        "Factor"
+      ],
+      "NUM": [
+        "Factor"
+      ]
+    },
+    "Signed_factor_prime": {
+      "(": [
+        "Factor_prime"
+      ],
+      "*": [
+        "Factor_prime"
+      ],
+      "+": [
+        "Factor_prime"
+      ],
+      "-": [
+        "Factor_prime"
+      ],
+      "<": [
+        "Factor_prime"
+      ],
+      "==": [
+        "Factor_prime"
+      ],
+      ";": [
+        "Factor_prime"
+      ],
+      ")": [
+        "Factor_prime"
+      ],
+      "]": [
+        "Factor_prime"
+      ],
+      ",": [
+        "Factor_prime"
+      ]
+    },
+    "Signed_factor_zegond": {
+      "+": [
+        "+",
+        "Factor"
+      ],
+      "-": [
+        "-",
+        "Factor",
+        "#negate"
+      ],
+      "(": [
+        "Factor_zegond"
+      ],
+      "NUM": [
+        "Factor_zegond"
+      ]
+    },
+    "Factor": {
+      "(": [
+        "(",
+        "Expression",
+        ")"
+      ],
+      "ID": [
+        "#push_address",
+        "ID",
+        "Var_call_prime"
+      ],
+      "NUM": [
+        "#push_const",
+        "NUM"
+      ]
+    },
+    "Var_call_prime": {
+      "(": [
+        "#check_function",
+        "#start_function_call",
+        "(",
+        "Args",
+        ")",
+        "#end_function_call"
+      ],
+      "[": [
+        "#check_var",
+        "Var_prime"
+      ],
+      "*": [
+        "#check_var",
+        "Var_prime"
+      ],
+      "+": [
+        "#check_var",
+        "Var_prime"
+      ],
+      "-": [
+        "#check_var",
+        "Var_prime"
+      ],
+      ";": [
+        "#check_var",
+        "Var_prime"
+      ],
+      ")": [
+        "#check_var",
+        "Var_prime"
+      ],
+      "<": [
+        "#check_var",
+        "Var_prime"
+      ],
+      "==": [
+        "#check_var",
+        "Var_prime"
+      ],
+      "]": [
+        "#check_var",
+        "Var_prime"
+      ],
+      ",": [
+        "#check_var",
+        "Var_prime"
+      ]
+    },
+    "Var_prime": {
+      "[": [
+        "#check_array",
+        "[",
+        "Expression",
+        "#array_index",
+        "]"
+      ],
+      "*": [
+        null
+      ],
+      "+": [
+        null
+      ],
+      "-": [
+        null
+      ],
+      ";": [
+        null
+      ],
+      ")": [
+        null
+      ],
+      "<": [
+        null
+      ],
+      "==": [
+        null
+      ],
+      "]": [
+        null
+      ],
+      ",": [
+        null
+      ]
+    },
+    "Factor_prime": {
+      "(": [
+        "#check_function",
+        "#start_function_call",
+        "(",
+        "Args",
+        ")",
+        "#end_function_call"
+      ],
+      "*": [
+        null
+      ],
+      "+": [
+        null
+      ],
+      "-": [
+        null
+      ],
+      "<": [
+        null
+      ],
+      "==": [
+        null
+      ],
+      ";": [
+        null
+      ],
+      ")": [
+        null
+      ],
+      "]": [
+        null
+      ],
+      ",": [
+        null
+      ]
+    },
+    "Factor_zegond": {
+      "(": [
+        "(",
+        "Expression",
+        ")"
+      ],
+      "NUM": [
+        "#push_const",
+        "NUM"
+      ]
+    },
+    "Args": {
+      "ID": [
+        "Arg_list"
+      ],
+      "+": [
+        "Arg_list"
+      ],
+      "-": [
+        "Arg_list"
+      ],
+      "(": [
+        "Arg_list"
+      ],
+      "NUM": [
+        "Arg_list"
+      ],
+      ")": [
+        null
+      ]
+    },
+    "Arg_list": {
+      "ID": [
+        "Expression",
+        "#add_arg",
+        "Arg_list_prime"
+      ],
+      "+": [
+        "Expression",
+        "#add_arg",
+        "Arg_list_prime"
+      ],
+      "-": [
+        "Expression",
+        "#add_arg",
+        "Arg_list_prime"
+      ],
+      "(": [
+        "Expression",
+        "#add_arg",
+        "Arg_list_prime"
+      ],
+      "NUM": [
+        "Expression",
+        "#add_arg",
+        "Arg_list_prime"
+      ]
+    },
+    "Arg_list_prime": {
+      ",": [
+        ",",
+        "Expression",
+        "#add_arg",
+        "Arg_list_prime"
+      ],
+      ")": [
+        null
+      ]
+    }
+  },
+  "non_terminals": [
+    "Program",
+    "Declaration",
+    "Declaration_list",
+    "Declaration_initial",
+    "Declaration_prime",
+    "Var_declaration_prime",
+    "Fun_declaration_prime",
+    "Type_specifier",
+    "Params",
+    "Param_list",
+    "Param",
+    "Param_prime",
+    "Compound_stmt",
+    "Statement_list",
+    "Statement",
+    "Expression_stmt",
+    "Selection_stmt",
+    "Else_stmt",
+    "Iteration_stmt",
+    "Return_stmt",
+    "Return_stmt_prime",
+    "Expression",
+    "B",
+    "H",
+    "Simple_expression_zegond",
+    "Simple_expression_prime",
+    "C",
+    "Relop",
+    "Additive_expression",
+    "Additive_expression_prime",
+    "Additive_expression_zegond",
+    "D",
+    "Addop",
+    "Term",
+    "Term_prime",
+    "Term_zegond",
+    "G",
+    "Signed_factor",
+    "Signed_factor_prime",
+    "Signed_factor_zegond",
+    "Factor",
+    "Var_call_prime",
+    "Var_prime",
+    "Factor_prime",
+    "Factor_zegond",
+    "Args",
+    "Arg_list",
+    "Arg_list_prime"
+  ]
+}

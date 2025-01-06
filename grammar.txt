@@ -1,0 +1,48 @@
+Program #start_program Declaration_list #end_program
+Declaration Declaration_initial Declaration_prime
+Declaration_list #start_declaration Declaration Declaration_list | EPSILON
+Declaration_initial Type_specifier #declaration_id ID
+Declaration_prime #declare_function Fun_declaration_prime | #declare_var Var_declaration_prime #end_var_declaration
+Var_declaration_prime #assign_var ; | #declare_array [ #declare_array_length NUM ] ;
+Fun_declaration_prime #start_function_declaration ( #start_scope #start_params_declaration Params #end_params_declaration ) Compound_stmt #end_function_declaration #end_scope 
+Type_specifier #declaration_type int | #declaration_type void
+Params int #param_id ID Param_prime #end_param Param_list |  void
+Param_list , Param #end_param Param_list | EPSILON
+Param #start_declaration Declaration_initial #declared_param #check_declaration_var Param_prime
+Param_prime #param_is_array [ ] | EPSILON
+Compound_stmt { Declaration_list Statement_list }
+Statement_list Statement Statement_list | EPSILON
+Statement Expression_stmt | Compound_stmt | Selection_stmt | Iteration_stmt | Return_stmt
+Expression_stmt Expression #pop_stack ; | break #break_loop ; | ;
+Selection_stmt if ( Expression ) #save_if #start_scope Statement #end_scope Else_stmt #end_if
+Else_stmt endif #if_jpf | else #start_scope #if_else_jpf Statement endif #else_jp #end_scope
+Iteration_stmt for ( #start_scope Expression #pop_stack ; #start_for Expression #save_for ; #start_iterator_expression_mode Expression #pop_stack #end_iterator_expression_mode ) Statement #end_for #end_scope
+Return_stmt return Return_stmt_prime #jp_ra
+Return_stmt_prime #check_return_void ; | #check_return_non_void Expression #set_return_value ;
+Expression Simple_expression_zegond | #push_address ID B
+B = Expression #assign | #check_array [ Expression #array_index ] H | Simple_expression_prime
+H = Expression #assign | G D C
+Simple_expression_zegond Additive_expression_zegond C
+Simple_expression_prime Additive_expression_prime C
+C #comparison_op Relop Additive_expression #comparison | EPSILON
+Relop < | ==
+Additive_expression Term D
+Additive_expression_prime Term_prime D
+Additive_expression_zegond Term_zegond D
+D #arith_op Addop Term #arith D | EPSILON
+Addop + | -
+Term Signed_factor G
+Term_prime Signed_factor_prime G
+Term_zegond Signed_factor_zegond G
+G * Signed_factor #mult G | EPSILON
+Signed_factor + Factor | - Factor #negate | Factor
+Signed_factor_prime Factor_prime
+Signed_factor_zegond  + Factor | - Factor #negate | Factor_zegond
+Factor ( Expression ) | #push_address ID Var_call_prime | #push_const NUM
+Var_call_prime #check_function #start_function_call ( Args ) #end_function_call | #check_var Var_prime
+Var_prime #check_array [ Expression #array_index ] | EPSILON
+Factor_prime #check_function #start_function_call ( Args ) #end_function_call| EPSILON
+Factor_zegond ( Expression ) | #push_const NUM
+Args Arg_list | EPSILON
+Arg_list Expression #add_arg Arg_list_prime
+Arg_list_prime , Expression #add_arg Arg_list_prime | EPSILON
